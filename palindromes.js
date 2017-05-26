@@ -2,7 +2,7 @@
 
   var palindrome_words = ['AC-DC', 'jackass', 'ztrawhcs cire', 'pmurt dlanod', 'data', 'anna', 'civic', 'mom', 'noon', 'redrum', 'red'];
 
-  // Choose a random word from palindrome_words
+  // Choose a random word from palindrome_words, used to simulate user interaction
   var chosen_word = palindrome_words[Math.floor(Math.random() * 11)];
 
   // Make each letter in the chosen word an array
