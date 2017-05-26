@@ -7,12 +7,6 @@
   var newPopulation = chosen_Populations;
 
 
-
-
-  // console.log('\n' + 'Population: ' + chosen_Populations + '.');
-  // console.log('\n' + 'birthRate: ' + birthRate.toFixed(2) + '.');
-  // console.log('\n' + 'weeks: ' + numberOfWeeks + '.');
-
   // Display introduction
   console.log('\n' + 'There exists a mythical species of rabbit called the Cherokee Hare, who can reproduce at variable rates and never seem to die.');
   console.log('As a wildlife expert, your job is to determine how many rabits there will be. Lucky for you, we found some genius engineers!');
@@ -77,6 +71,7 @@
 
   }
 
+  // Added to clean up the console view
   console.log('\n');
 
 })();
