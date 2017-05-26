@@ -1,7 +1,8 @@
 (function(){
 
    // var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'f', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-   // Same function, but A LOT EASIER TO WRITE -- Thanks David
+   // Same function as above, but A LOT EASIER TO WRITE -- Thanks David
+
    var alphabet = 'abcdefghfijklmnopqrstuvwxyz'.split('');
    var hangman_words = ['functions', 'palindrone', 'javascript', 'hyperlink', 'method', 'data'];
    var chosen_word = hangman_words[Math.floor(Math.random() * 5)];
